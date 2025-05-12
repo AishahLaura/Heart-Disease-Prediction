@@ -21,4 +21,15 @@ Building a logistic regression model, undertaking the prediction process and wel
 -	Model Evaluation: 
 After the development of our model and prediction we will use accuracy score and confusion metrics to evaluate our models.
 
-
+**Libraries Used For The Analysis**
+- pandas for data manipulation and analysis.
+- numpy for numerical operations.
+- matplotlib for visualization.
+- seaborn for enhanced visualizations.
+- scikit-learn for preprocessing categorical data.
+- from sklearn.preprocessing, we imported LabelEncoder for encodig categorical data.
+- from sklearn.linear_model, we imported LogisticRegression for model building.
+- from pickle, we imported TRUE to convert python objects into byte streams to store in database.
+- from sklearn.preprocessing, we imported StandardScaler for feature engineering.
+- from sklearn.neighbors, we imported KNeighborsClassifier for model building. This is to lay emphasis on the accuracy og the previous model built.
+  
